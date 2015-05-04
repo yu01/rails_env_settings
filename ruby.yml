@@ -1,0 +1,6 @@
+---
+- hosts: servers
+  sudo: yes
+  tasks:
+    - name: install ruby
+      yum: name=ruby state=installed
